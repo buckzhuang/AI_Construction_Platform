@@ -1267,14 +1267,15 @@ with contact_col2:
 st.markdown(
     """
     <div style="
-        margin-top: 55px;
-        padding: 28px;
-        text-align: center;
-        color: #dcd8cf;
-        background: #373c35;
-        border-radius: 5px;
+        margin-top:55px;
+        padding:28px;
+        text-align:center;
+        color:#dcd8cf;
+        background:#373c35;
+        border-radius:5px;
     ">
-        築居 AI 室內設計平台｜Python AI 專題展示<br>
+        築居 AI 室內設計平台<br>
+
         <span style="font-size:13px;">
             AI 初步預算評估不等同於正式工程報價
         </span>
