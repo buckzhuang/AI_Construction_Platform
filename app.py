@@ -185,8 +185,9 @@ st.markdown(
     .section-heading p {
         max-width: 760px;
         margin: auto;
-        color: #74766f;
+        color: #3f3f3f;
         font-size: 16px;
+        font-weight: 500;
         line-height: 1.9;
     }
 
@@ -434,6 +435,31 @@ st.markdown(
             height: 220px;
         }
     }
+
+    /* ========================= */
+    /* Streamlit 表單修正 */
+    /* ========================= */
+
+    .stTextInput input,
+    .stNumberInput input,
+    .stTextArea textarea {
+        background-color: #ffffff !important;
+        color: #222222 !important;
+    }
+
+    .stSelectbox div[data-baseweb="select"] > div {
+        background-color: #ffffff !important;
+        color: #222222 !important;
+    }
+
+    .stTextInput label,
+    .stNumberInput label,
+    .stSelectbox label,
+    .stTextArea label {
+        color: #333333 !important;
+        font-weight: 600;
+    }
+
     </style>
     """,
     unsafe_allow_html=True
