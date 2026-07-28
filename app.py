@@ -6,7 +6,7 @@ import joblib
 # 網站基本設定
 # =========================
 st.set_page_config(
-    page_title="築居 AI 室內設計",
+    page_title="築嶼 AI 室內設計",
     page_icon="🏠",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -553,7 +553,7 @@ st.markdown(
 st.markdown(
     """
     <div class="navbar">
-        <div class="navbar-logo">築居 AI DESIGN</div>
+        <div class="navbar-logo">築嶼 AI DESIGN</div>
         <div class="navbar-links">
             <a href="#home">首頁</a>
             <a href="#about">關於我們</a>
@@ -688,9 +688,8 @@ with st.container():
             value=1500000,
             step=100000
         )
-
         area = st.number_input(
-                  "室內坪數",
+            "室內坪數",
             min_value=5,
             max_value=200,
             value=30,
@@ -1336,7 +1335,7 @@ with contact_col1:
     st.markdown(
         """
         <div class="contact-box">
-            <h3>築居 AI 室內設計</h3>
+            <h3>築嶼 AI 室內設計</h3>
             <p>
                 電話：07-123-4567<br>
                 Email：service@example.com<br>
@@ -1371,7 +1370,7 @@ with contact_col2:
 st.markdown(
     """
     <div class="site-footer">
-        <div class="site-footer-title">築居 AI 室內設計平台</div>
+        <div class="site-footer-title">築嶼 AI 室內設計平台</div>
         <div class="site-footer-note">AI 初步預算評估不等同於正式工程報價</div>
     </div>
     """,
