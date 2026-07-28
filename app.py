@@ -1343,10 +1343,6 @@ with contact_col1:
                 服務地區：高雄、台南及鄰近地區<br>
                 服務時間：週一至週六 09:00～18:00
             </p>
-            <p>
-                本網站為 Python 與 AI 應用專題展示，
-                聯絡資訊及案例內容皆為示意資料。
-            </p>
         </div>
         """,
         unsafe_allow_html=True
